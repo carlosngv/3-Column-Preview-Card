@@ -18,7 +18,7 @@ a {
 .main-container {
     height: 100vh;
     margin: auto;
-    max-width: 50%;
+    max-width: 70%;
     position: relative;
 }
 
@@ -58,11 +58,11 @@ a {
 .main-car-col h1 {
     font-size: 3rem;
     font-family: 'Big Shoulders Display', cursive;
-    margin-top: -6rem;
+    margin-top: -3rem;
 }
 
 .main-car-col p {
-    margin-top: -8rem;
+    margin-top: -5rem;
     color:rgba(228, 228, 228, 0.836)
 }
 
@@ -75,7 +75,6 @@ a {
 
 .main-car-col:nth-child(1) a {
     color: hsl(30deg 77% 52%);
-    font-weight: 700px;
 }
 
 .main-car-col:nth-child(2) {
