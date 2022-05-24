@@ -1,0 +1,56 @@
+@media (max-width: 375px) {
+
+    .main-container {
+        margin: 1rem auto;
+     }
+    .main-cars-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .main-car-col:nth-child(1) {
+        background-color: hsl(30deg 77% 52%);
+        border-left: 1px solid hsl(30deg 77% 52%);
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        border-bottom-left-radius: 0;
+    }
+
+    .main-car-col:nth-child(3) {
+        background-color: hsl(179deg 66% 15%);
+        border-right: 1px solid hsl(179deg 66% 15%);
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        border-top-right-radius: 0;
+    }
+
+    .main-car-col {
+        height: 30rem;
+        padding: 1.5rem;
+    }
+
+    .main-car-col img {
+        max-width: 3rem;
+    }
+
+
+    .main-car-col h1 {
+        margin-top: 0;
+        font-size: 1.6rem;
+    }
+
+    .main-car-col p {
+        margin-top: 1rem;
+        font-size: 0.6rem;
+    }
+
+    .main-car-col a {
+        margin-top: 1rem;
+        font-size: 0.6rem;
+        max-width: 60%;
+        padding: 0.7rem;
+    }
+
+
+}

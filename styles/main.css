@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&family=Lexend+Deca:wght@400&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-container {
+    height: 100vh;
+    margin: auto;
+    max-width: 50%;
+    position: relative;
+}
+
+.main-cars-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 35rem;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.main-car-col {
+    color: #fff;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    justify-content: space-between;
+}
+
+.main-car-col img {
+    max-width: 4rem;
+}
+
+.main-car-col a {
+    background-color: #fff;
+    border-radius: 3rem;
+    font-weight: bold;
+    max-width: 70%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.main-car-col h1 {
+    font-size: 3rem;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: -6rem;
+}
+
+.main-car-col p {
+    margin-top: -8rem;
+    color:rgba(228, 228, 228, 0.836)
+}
+
+.main-car-col:nth-child(1) {
+    background-color: hsl(30deg 77% 52%);
+    border-left: 1px solid hsl(30deg 77% 52%);
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.main-car-col:nth-child(1) a {
+    color: hsl(30deg 77% 52%);
+    font-weight: 700px;
+}
+
+.main-car-col:nth-child(2) {
+    background-color: hsl(187deg 62% 28%);
+}
+
+.main-car-col:nth-child(2) a {
+    color: hsl(187deg 62% 28%);
+}
+
+.main-car-col:nth-child(3) {
+    background-color: hsl(179deg 66% 15%);
+    border-right: 1px solid hsl(179deg 66% 15%);
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.main-car-col:nth-child(3) a {
+    color: hsl(179deg 66% 15%);
+}
